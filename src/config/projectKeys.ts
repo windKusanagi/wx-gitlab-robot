@@ -13,9 +13,9 @@ export interface ProjectKeys {
 }
 const projectKeys: ProjectKeys = {
   // 项目配置
-  "daxi-ppt": {
-    id: 575, // project id, 在仓库的web页面中可以看到
-    key: "f13b53a9-5ff9-4ac4-bb63-8d652caa2580" // 企业微信机器人key
+  "project name": {
+    id: 0, // project id, 在仓库的web页面中可以看到
+    key: "robot key" // 企业微信机器人key
   },
 };
 export default projectKeys;
