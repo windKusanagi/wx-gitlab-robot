@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "build": "rimraf out && node scripts/build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn add && npm run build && cd out && yarn add && pm2 start pm2.json"
+    "start": "yarn && npm run build && cd out && yarn && pm2 start pm2.json"
   },
   "keywords": [
     "webhook",
